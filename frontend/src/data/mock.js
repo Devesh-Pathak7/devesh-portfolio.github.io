@@ -162,8 +162,8 @@ export const portfolioData = {
     {
       id: 3,
       title: "Published Mobile Application",
-      description: "Tree: Play & Learn English app on Google Play Store",
-      year: "2022",
+      description: "Academic Web Portal with Android Application - Won 2nd place in National Competition",
+      year: "2020",
       type: "Publication"
     },
     {
