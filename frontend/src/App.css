@@ -6,25 +6,25 @@
 }
 
 :root {
-  /* Modern Purple Creative Tech Theme */
-  --bg-page: #0F0F23;
-  --bg-card: #1E1E3F;
+  /* Matrix Green Tech Hacker Theme */
+  --bg-page: #0A0A0A;
+  --bg-card: #1A1A1A;
   --bg-light: #F6F8FA;
   
-  --text-primary: #8B5CF6;
-  --text-secondary: #C4C7D0;
-  --text-muted: #6B7280;
-  --text-inverse: #FFFFFF;
+  --text-primary: #00FF41;
+  --text-secondary: #C9D1D9;
+  --text-muted: #8B949E;
+  --text-inverse: #000000;
   
-  --border-light: rgba(139, 92, 246, 0.2);
-  --border-medium: #2D2D4A;
-  --border-strong: #4C4C6D;
+  --border-light: rgba(0, 255, 65, 0.2);
+  --border-medium: #2D2D2D;
+  --border-strong: #404040;
   
-  --brand-primary: #8B5CF6;
-  --brand-hover: rgba(139, 92, 246, 0.8);
-  --brand-active: rgba(139, 92, 246, 0.6);
+  --brand-primary: #00FF41;
+  --brand-hover: rgba(0, 255, 65, 0.8);
+  --brand-active: rgba(0, 255, 65, 0.6);
   
-  --secondary-olive: #2D2D4A;
+  --secondary-olive: #1F2937;
   --secondary-yellow: #f8d47a;
   --neutral-white: white;
 }
