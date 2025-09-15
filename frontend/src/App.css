@@ -723,7 +723,7 @@ body {
   background: var(--brand-primary);
   color: var(--text-inverse);
   transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 255, 65, 0.4);
 }
 
 .skills-summary {
