@@ -723,7 +723,13 @@ body {
   background: var(--brand-primary);
   color: var(--text-inverse);
   transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(0, 255, 65, 0.4);
+  box-shadow: 0 2px 8px rgba(0, 120, 212, 0.3);
+}
+
+.contact-submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 120, 212, 0.4);
+  background: rgba(0, 120, 212, 0.9);
 }
 
 .skills-summary {
