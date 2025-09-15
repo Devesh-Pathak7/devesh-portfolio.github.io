@@ -253,7 +253,7 @@ body {
 
 .hero-social-link:hover {
   background: var(--brand-primary);
-  color: var(--text-inverse);
+  color: var(--bg-page);
   border-color: var(--brand-primary);
 }
 
