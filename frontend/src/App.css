@@ -636,11 +636,18 @@ body {
 
 .tech-tag {
   background: var(--secondary-olive);
-  color: var(--text-primary);
+  color: var(--brand-primary);
   padding: 6px 12px;
   border-radius: 16px;
   font-size: 0.8rem;
   font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+  background: var(--brand-primary);
+  color: var(--text-inverse);
+  transform: translateY(-1px);
 }
 
 .project-actions {
