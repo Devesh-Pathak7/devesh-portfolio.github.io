@@ -6,25 +6,25 @@
 }
 
 :root {
-  /* Pixel-Pushers Monochrome Color System */
-  --bg-page: #0D1117;
-  --bg-card: #21262D;
+  /* Modern Purple Creative Tech Theme */
+  --bg-page: #0F0F23;
+  --bg-card: #1E1E3F;
   --bg-light: #F6F8FA;
   
-  --text-primary: #007ACC;
-  --text-secondary: #B0B3B8;
-  --text-muted: #65676B;
+  --text-primary: #8B5CF6;
+  --text-secondary: #C4C7D0;
+  --text-muted: #6B7280;
   --text-inverse: #FFFFFF;
   
-  --border-light: rgba(0, 122, 204, 0.2);
-  --border-medium: #3E4042;
-  --border-strong: #888680;
+  --border-light: rgba(139, 92, 246, 0.2);
+  --border-medium: #2D2D4A;
+  --border-strong: #4C4C6D;
   
-  --brand-primary: #007ACC;
-  --brand-hover: rgba(0, 122, 204, 0.8);
-  --brand-active: rgba(0, 122, 204, 0.6);
+  --brand-primary: #8B5CF6;
+  --brand-hover: rgba(139, 92, 246, 0.8);
+  --brand-active: rgba(139, 92, 246, 0.6);
   
-  --secondary-olive: #2D3748;
+  --secondary-olive: #2D2D4A;
   --secondary-yellow: #f8d47a;
   --neutral-white: white;
 }
