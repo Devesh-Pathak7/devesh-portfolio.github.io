@@ -710,12 +710,13 @@ body {
 
 .skill-tag {
   background: var(--secondary-olive);
-  color: var(--text-primary);
+  color: var(--brand-primary);
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 0.9rem;
   font-weight: 500;
   transition: all 0.3s ease;
+  border: 1px solid rgba(0, 122, 204, 0.2);
 }
 
 .skill-tag:hover {
