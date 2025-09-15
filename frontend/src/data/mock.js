@@ -3,7 +3,7 @@ export const portfolioData = {
   personal: {
     name: "Devesh Pathak",
     title: "Cloud & DevOps Engineer",
-    tagline: "Building scalable infrastructure and automating deployment pipelines",
+    tagline: "Computer Science Graduate specializing in DevOps automation and full-stack development",
     location: "Navi Mumbai, Maharashtra, India",
     email: "deveshpathak3191717@gmail.com",
     phone: "+91 9130027751",
