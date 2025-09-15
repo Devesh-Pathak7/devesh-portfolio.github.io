@@ -168,7 +168,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, var(--bg-page) 0%, #111111 100%);
+  background: linear-gradient(135deg, var(--bg-page) 0%, #161B22 100%);
 }
 
 .hero-overlay {
@@ -177,7 +177,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 30% 70%, rgba(0, 255, 65, 0.08) 0%, transparent 50%);
+  background: radial-gradient(circle at 30% 70%, rgba(0, 120, 212, 0.1) 0%, transparent 50%);
 }
 
 .hero-content {
