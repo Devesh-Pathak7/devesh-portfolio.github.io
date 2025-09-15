@@ -305,8 +305,8 @@ body {
 
 .btn-primary:hover {
   transform: scale(1.02);
-  background: rgba(0, 255, 65, 0.9);
-  box-shadow: 0 4px 20px rgba(0, 255, 65, 0.4);
+  background: rgba(0, 120, 212, 0.9);
+  box-shadow: 0 4px 20px rgba(0, 120, 212, 0.3);
 }
 
 .btn-secondary {
@@ -331,7 +331,7 @@ body {
   background: var(--brand-primary);
   color: var(--text-inverse);
   transform: scale(1.02);
-  box-shadow: 0 4px 20px rgba(0, 255, 65, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 120, 212, 0.2);
 }
 
 /* About Section */
