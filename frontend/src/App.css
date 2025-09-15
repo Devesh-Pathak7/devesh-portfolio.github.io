@@ -1120,7 +1120,8 @@ body {
 
 .contact-submit-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 20px rgba(217, 251, 6, 0.3);
+  box-shadow: 0 8px 25px rgba(0, 122, 204, 0.4);
+  background: rgba(0, 122, 204, 0.9);
 }
 
 .contact-submit-btn:disabled {
