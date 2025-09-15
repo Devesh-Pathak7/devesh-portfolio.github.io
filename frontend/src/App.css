@@ -6,25 +6,25 @@
 }
 
 :root {
-  /* Azure Professional Theme - Microsoft Inspired */
+  /* Electric Blue Professional Theme - Original */
   --bg-page: #0D1117;
-  --bg-card: #1F2328;
+  --bg-card: #21262D;
   --bg-light: #F6F8FA;
   
-  --text-primary: #0078D4;
-  --text-secondary: #C9D1D9;
-  --text-muted: #8B949E;
+  --text-primary: #007ACC;
+  --text-secondary: #B0B3B8;
+  --text-muted: #65676B;
   --text-inverse: #FFFFFF;
   
-  --border-light: rgba(0, 120, 212, 0.2);
-  --border-medium: #30363D;
-  --border-strong: #484F58;
+  --border-light: rgba(0, 122, 204, 0.2);
+  --border-medium: #3E4042;
+  --border-strong: #888680;
   
-  --brand-primary: #0078D4;
-  --brand-hover: rgba(0, 120, 212, 0.8);
-  --brand-active: rgba(0, 120, 212, 0.6);
+  --brand-primary: #007ACC;
+  --brand-hover: rgba(0, 122, 204, 0.8);
+  --brand-active: rgba(0, 122, 204, 0.6);
   
-  --secondary-olive: #106EBE;
+  --secondary-olive: #2D3748;
   --secondary-yellow: #f8d47a;
   --neutral-white: white;
 }
