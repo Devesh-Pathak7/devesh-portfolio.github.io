@@ -62,16 +62,6 @@ export const portfolioData = {
 
   projects: [
     {
-      id: 1,
-      title: "Tree: Play & Learn English",
-      description: "Android application designed to improve English communication skills, available on Google Play Store",
-      technologies: ["Android", "Java", "Firebase", "Google Play Console"],
-      year: "2022",
-      status: "Published",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.mad.tree",
-      category: "Mobile Development"
-    },
-    {
       id: 2,
       title: "DevOps Pipeline Automation",
       description: "Enterprise CI/CD pipeline setup for 20+ projects with integrated DevSecOps tools, achieving 40% faster deployments",
