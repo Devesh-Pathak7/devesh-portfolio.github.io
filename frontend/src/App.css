@@ -6,25 +6,25 @@
 }
 
 :root {
-  /* Matrix Green Tech Hacker Theme */
-  --bg-page: #0A0A0A;
-  --bg-card: #1A1A1A;
+  /* Azure Professional Theme - Microsoft Inspired */
+  --bg-page: #0D1117;
+  --bg-card: #1F2328;
   --bg-light: #F6F8FA;
   
-  --text-primary: #00FF41;
+  --text-primary: #0078D4;
   --text-secondary: #C9D1D9;
   --text-muted: #8B949E;
-  --text-inverse: #000000;
+  --text-inverse: #FFFFFF;
   
-  --border-light: rgba(0, 255, 65, 0.2);
-  --border-medium: #2D2D2D;
-  --border-strong: #404040;
+  --border-light: rgba(0, 120, 212, 0.2);
+  --border-medium: #30363D;
+  --border-strong: #484F58;
   
-  --brand-primary: #00FF41;
-  --brand-hover: rgba(0, 255, 65, 0.8);
-  --brand-active: rgba(0, 255, 65, 0.6);
+  --brand-primary: #0078D4;
+  --brand-hover: rgba(0, 120, 212, 0.8);
+  --brand-active: rgba(0, 120, 212, 0.6);
   
-  --secondary-olive: #1F2937;
+  --secondary-olive: #106EBE;
   --secondary-yellow: #f8d47a;
   --neutral-white: white;
 }
