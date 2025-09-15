@@ -714,6 +714,8 @@ body {
 .skill-tag:hover {
   background: var(--brand-primary);
   color: var(--text-inverse);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 122, 204, 0.3);
 }
 
 .skills-summary {
