@@ -24,25 +24,47 @@ const Contact = ({ data }) => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    // Mock form submission - replace with actual API call
-    setTimeout(() => {
-      toast({
-        title: "Message Sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
-      });
-      
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-      });
-      setIsSubmitting(false);
-    }, 1500);
-  };
+  try {
+    // send the form data to FastAPI
+    const res = await fetch("http://127.0.0.1:8000/api/status", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        client_name: formData.name, // your backend expects "client_name"
+        // you could also store email, subject, message in Mongo if you change backend model
+      }),
+    });
+
+    if (!res.ok) throw new Error("Request failed");
+    const data = await res.json();
+
+    toast({
+      title: "Message Sent!",
+      description: `Thank you for your message. Saved with id ${data.id}.`,
+    });
+
+    setFormData({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
+  } catch (err) {
+    console.error(err);
+    toast({
+      title: "Error",
+      description: "Could not send your message",
+      variant: "destructive",
+    });
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
   const contactInfo = [
     {
